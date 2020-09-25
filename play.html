@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="L\'application qui va révolutionner vos envies sur les transports">
+    <meta name="author" content="Clément LO-CASCIO | Concepteur DEVOPS/SYSOPS 1ère Année | EPSI Bordeaux">
+
+    <title>Crash TBM | Game</title>
+
+    <!--Style core CSS-->
+    <link rel="stylesheet" href="StyleSheet1.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+
+    <!-- File core JS-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/crash_tbm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Crash TBM</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/index.html#download">Trailer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/index.html#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead">
+
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-7 my-auto">
+                    <div class="header-content mx-auto">
+                        <h1 class="mb-5">Crash TBM: </h1>
+                        <p class="temps_ordinateur_JS mb-4"></p>
+                        <p class="compteur"></p>
+                        <div id="grille"></div><br />
+                    </div>
+                    <br />
+                    <div id="cartes_joueur col-md-4">
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <img id="boite_outil_JS" name="boite_outils" numero_carte="8" width="125" height="250" src="img/boite_outils.png">
+                        <img id="otage_JS" width="125" height="250" name="otage" numero_carte="9" src="img/otage.png" />
+                        <img id="reseau_JS" width="125" height="250" name="reseau" numero_carte="10" src="img/reseau.png">
+                    </div><br />
+                    <div class="col-md-6">
+                        <p class="mb-4">Noms des unités vendalisées : </p>
+                        <div id="unite_vendalisee">
+                            <span class="mb-4" id="tram">Tram (5 cases), </span>
+                            <span class="mb-4" id="bus">Bus (4 cases), </span>
+                            <span class="mb-4" id="velo_n1">Vélo n°1 (3 cases), </span>
+                            <span class="mb-4" id="velo_n2">Vélo n°2 (3 cases), </span>
+                            <span class="mb-4" id="scooter">Scooter (2 cases)</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="display: none;">
+                        <img id="contoleur_JS" name="boite_outils" numero_carte="1" width="125" height="250" src="img/controleur.png">
+                        <img id="covid_JS" name="covid" numero_carte="2" width="125" height="250" src="img/covid.png">
+                        <img id="geste_barriere_JS" name="geste_barriere" numero_carte="3" width="125" height="250" src="img/geste_barriere.png">
+                        <img id="greve_JS" name="greve" numero_carte="4" width="125" height="250" src="img/greve.png">
+                        <img id="heure_de_pointe_JS" name="heure_de_pointe" numero_carte="5" width="125" height="250" src="img/heure_de_pointe.png">
+                        <img id="intemperie_JS" name="intemperie" numero_carte="6" width="125" height="250" src="img/intemperie.png">
+                        <img id="travaux_JS" name="travaux" numero_carte="7" width="125" height="250" src="img/travaux.png">
+                    </div>
+                </div>
+                <div class="col-lg-5 my-auto">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <div id="Communication_JS"></div>
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+   
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Si cela vous a plu, vous pouvez cliquez sur le bouton Rejouer. Sinon, cliquez sur le bouton fermer.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="document.location.reload()">Rejouer</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

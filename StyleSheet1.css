@@ -1,0 +1,26 @@
+﻿
+.colonne {
+    float: left;
+}
+
+.ligne {
+    width: 30px;
+    height: 30px;
+    border:solid;
+    border-width:1px;
+}
+
+.tir {
+    cursor:not-allowed;
+}
+.plouf{
+    background-color: red;
+}
+.success{
+    background-color: green;
+}
+.trouve {
+    text-decoration: line-through;
+}
+
+
