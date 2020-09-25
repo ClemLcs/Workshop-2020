@@ -1,7 +1,14 @@
 # Workshop-2020
 EPSI Bordeaux Workshop 2020 B1 Groupe n°3
 
-Après une journée compliqué, bien rempli et longue, les transports en communs décident de faire de même. Par conséquent, vous vous sentez frustré, insatisfait, désappointé. Alors quoi de mieux que se défouler sur la web application CrashTBM.  
+Après une journée compliqué, bien rempli et longue, les transports en communs décident de faire de même. Par conséquent, vous vous sentez frustré, insatisfait, désappointé. Alors quoi de mieux que se défouler sur la web application CrashTBM (workshop2020.locasci.fr).  
+
+Nos fonctionnalités élémentaires, sont : 
+•	Cross-platform : Grâce à l'utilisation de HTML5, CSS3, Javascript ES6 et de Jquery 1.12.4. Vous profitez d'une compatibilité avec tous les navigateurs web disponible.
+•	No Down : Aucun téléchargement n’est nécessaire, toutes nos mises à jours et nouvelles fonctionnalités immédiatement.
+•	Utilisation Gratuite : Comme toujours, l'utilisation de notre jeu est 100% gratuite de A à Z.
+•	Open Source :  Vous êtes développeur, et souhaitez contribuer à notre web app. Pas de soucis, grâce à notre code Open Source vous pouvez accéder à ce dernier et contribuer à l’amélioration de notre web app depuis le dépôt GitHub ci-dessus.
+
 
 CrashTBM est née lors d’un workshop à l’école d’informatique EPSI sur son campus de Bordeaux. Elle a regroupé une équipe de trois jeunes apprenants en première année de conception  DEVOPS/SYSOPS : Matis Galvin (Communication + Front END), Clément LO-CASCIO (Front-End + Back-End), et Paul Rouchard (Front-End). 
 
